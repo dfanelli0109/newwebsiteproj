@@ -6,10 +6,27 @@ color: black;
 }
 
 #bdy {
+    width: 100%;
 
+}
+
+#ftr {
+    background-color: rgb(27, 27, 27);
+    color: white;
+    margin: 30px 0px 10px 0px;
+    padding: 25px;
+}
+
+h3 {
+    background-color: #78a6fd;
+}
+
+h3:hover {
+    background-color: #3bf10d;
 }
 #hdr {
     line-height: 0;
+    margin: 0;
 }
 .init {
     font-size: 3em;
@@ -46,8 +63,8 @@ marquee {
     margin: 0;
     font-size: 2em;
     font-weight: bold;
-color: white;
-background-color: black;
+color: rgb(0, 0, 44);
+background-color: rgb(207, 207, 206);
 }
 
 #tel1{
@@ -72,6 +89,7 @@ header {
 
 #bs-example-navbar-collapse-1 {
 margin: 0px;
+padding: 0px;
 }
 
 #mar {
@@ -79,7 +97,9 @@ margin: 0px;
     font-size: 2vw;
 
 }
-
+ #navbar1 {
+  background-color:#0e0e0e;  
+ }
 #paddingzero {
    margin: 0;
    padding: 0;
@@ -96,7 +116,7 @@ margin: 0px;
     height: auto;
     margin:0;
     width: 100%;
-    background-color:#7dfa83;
+    background-color:#fff;
     
 }
 #nav1 {
@@ -143,6 +163,7 @@ background-color: #1d1d1d;
 
 h1, h2 {
     margin: 0;
+    
 }
 
 h1 {
@@ -177,15 +198,22 @@ h2 {
   #navbar1 {
     
     width: 100%;
-   background-color: white;
+   background-color:black;
   }
   
 
   .navbar-default .navbar-nav > li > .pglink {
+    background-color:   #0d0d0d;
     color: white;
     font-size: 1.75em;
+    width: 100%;
     text-align: center; 
     
+  }
+
+  #sz {
+      font-size: .75em;
+     
   }
 
   #btn {
@@ -196,9 +224,9 @@ h2 {
 
   
   .navbar-default .navbar-nav > li > .pglink:hover {
-    color: red;
-    background-color: white;
-  }
+    color:rgb(0, 0, 44);
+    background-color:#3bf10d;
+   letter-spacing: 5px;}
  
   a {
       text-decoration: none;
@@ -218,7 +246,7 @@ h2 {
 }
 #slideshowa{
     height:350px;
-    background-color:black;
+    background-color:white;
     width: 100%;
 }
 /* Wrapping element */
